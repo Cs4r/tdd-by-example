@@ -2,7 +2,7 @@ package cs4r.labs.currency;
 
 public class Dollar {
 
-	int amount;
+	private int amount;
 
 	Dollar(int amount) {
 		this.amount = amount;
