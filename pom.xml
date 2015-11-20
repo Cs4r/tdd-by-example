@@ -6,6 +6,13 @@
 	<version>1.0</version>
 	<name>TDD By Example</name>
 	<description>Example of typical model code driven completely by tests</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
