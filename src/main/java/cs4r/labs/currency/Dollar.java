@@ -1,21 +1,12 @@
 package cs4r.labs.currency;
 
-public class Dollar {
-
-	private int amount;
-
+public class Dollar extends Money {
 	Dollar(int amount) {
 		this.amount = amount;
 	}
 
 	Dollar times(int multiplier) {
 		return new Dollar(amount * multiplier);
-	}
-
-	@Override
-	public boolean equals(Object other) {
-		Dollar dollar = (Dollar) other;
-		return this.amount == dollar.amount;
 	}
 
 }
