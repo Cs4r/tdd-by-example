@@ -37,7 +37,11 @@ class Money implements Expression {
 	}
 
 	public Expression plus(Money added) {
-		return new Money(amount + added.amount, currency);
+		return new Sum(this, added);
+	}
+
+	public Money reduce(String to) {
+		return this;
 	}
 
 }
