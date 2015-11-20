@@ -17,11 +17,13 @@ public class TestCurrency {
 	public void testEquaility() {
 		assertTrue(new Dollar(5).equals(new Dollar(5)));
 		assertFalse(new Dollar(5).equals(new Dollar(6)));
-		
+
 		assertTrue(new Franc(5).equals(new Franc(5)));
 		assertFalse(new Franc(5).equals(new Franc(6)));
+
+		assertFalse(new Franc(5).equals(new Dollar(5)));
 	}
-	
+
 	@Test
 	public void testFrancMultiplication() {
 		Franc five = new Franc(5);
