@@ -2,7 +2,7 @@
 The aim of this repo is to track the progress I make through the reading of Ken Beck's book: _Test Driven Development: By Example_
 
 
-## The TDD cycle followed consists in:
+## The TDD cycle followed
 
 1. Add a little test
 2. Run all tests and fail
@@ -11,7 +11,7 @@ The aim of this repo is to track the progress I make through the reading of Ken 
 5. Refactor to remove duplication
 
 
-## Keys when applying TDD are:
+## Keys when applying TDD
 
 * The three approaches to making a test work cleanly: fake it, triangulation and obvious implementation 
 * Removing duplication between test and code as a way to drive the design
