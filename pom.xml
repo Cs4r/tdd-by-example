@@ -4,7 +4,7 @@
 	<groupId>cs4r.labs</groupId>
 	<artifactId>the-money-example</artifactId>
 	<version>1.0</version>
-	<name>TDD By Example</name>
+	<name>The Money Example</name>
 	<description>Example of typical model code driven completely by tests</description>
 
 	<properties>
