@@ -1,6 +1,7 @@
-# tdd-by-example
-The aim of this repo is to track the progress I make through the reading of Kent Beck's book: _Test Driven Development: By Example_
+# The Money example
+Example of typical model code driven completely by tests took from the famous Kent Beck's book: _Test Driven Development: By Example_. 
 
+The aim of this repo was to track the progress made through the reading of such a book.
 
 ## The TDD cycle followed
 
